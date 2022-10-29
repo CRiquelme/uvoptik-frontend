@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "style:lint": "stylelint '**/*.(js,jsx,ts,tsx)'",
+    "style:fix": "stylelint '**/*.(js,jsx,ts,tsx)' --fix",
+    "style:prettier": "prettier --check '**/*.(js,jsx,ts,tsx)'",
+    "make:prettier": "prettier --write '**/*.(js,jsx,ts,tsx)'"
   },
   "dependencies": {
     "next": "13.0.0",
