@@ -13,9 +13,15 @@
     "make:prettier": "prettier --write '**/*.(js,jsx,ts,tsx)'"
   },
   "dependencies": {
+    "@next/font": "^13.0.1",
+    "axios": "^1.1.3",
     "next": "13.0.0",
+    "primeflex": "^3.2.1",
+    "primeicons": "^6.0.1",
+    "primereact": "^8.7.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.55.0"
   },
   "devDependencies": {
     "eslint": "8.26.0",
